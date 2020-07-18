@@ -17,3 +17,37 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+class Vehicle():
+    # BASE class which all subclasses will inherit from
+    pass
+
+
+class GroundVehicle(Vehicle):
+    pass
+    # class inherits from Vehicle
+
+
+class FlightVehicle(Vehicle):
+    pass
+    # class inherits from vehicle
+
+
+class Car(GroundVehicle):
+    pass
+    # class inherits from ground vehicle -> vehicle
+
+
+class Motorcycle(GroundVehicle):
+    pass
+    # class inherits from ground vehicle-> vehicle
+
+
+class Airplane(FlightVehicle):
+    pass
+    # class inherits from flight vehicle->vehicle
+
+
+class Starship(FlightVehicle):
+    pass
+    # class inherits from flight vehicle->vehicle
